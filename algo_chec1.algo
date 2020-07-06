@@ -1,0 +1,29 @@
+ALGORITHM algo_chec1
+VAR
+    str:STRING,
+    j:INTEGER:=0
+    c_e:INTEGER:=0
+    n_v:INTEGER:=0
+BEGIN
+    Read(str)
+    FOR i FROM 0  TO l-1 STEP 1 DO
+        str (i) !=" "
+        j=j+1
+    END_FOR
+    FOR i FROM 0  TO l-1 STEP 1  DO
+        str(i) =" " 
+       c_e=c_e+1
+
+    END_FOR
+    FOR i FROM 0 TO l-1  STEP 1  DO
+     str(i) =a, e, i, o, u, y
+     n_v=n_v+1
+
+
+END_IF
+    END_FOR
+    Write('nombre de voyel=',c_v)
+    Write('nombre de mot=',c_e)
+    Write('nombre de charactère=',j)
+
+END
